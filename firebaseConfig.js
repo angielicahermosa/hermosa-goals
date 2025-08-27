@@ -1,24 +1,17 @@
-import { initializeApp } from 'firebase/app';
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Optionally import the services that you want to use
-// import {...} from 'firebase/auth';
-// import {...} from 'firebase/database';
-// import {...} from 'firebase/firestore';
-// import {...} from 'firebase/functions';
-// import {...} from 'firebase/storage';
-
-// Initialize Firebase
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'api-key',
-  authDomain: 'project-id.firebaseapp.com',
-  databaseURL: 'https://project-id.firebaseio.com',
-  projectId: 'project-id',
-  storageBucket: 'project-id.appspot.com',
-  messagingSenderId: 'sender-id',
-  appId: 'app-id',
-  measurementId: 'G-measurement-id',
+  apiKey: "AIzaSyCwTawYwGD19WsOzjG2zt8E-KlmhIV6O7s",
+  authDomain: "gelcastore.firebaseapp.com",
+  projectId: "gelcastore",
+  storageBucket: "gelcastore.firebasestorage.app",
+  messagingSenderId: "556257405254",
+  appId: "1:556257405254:web:c19f2dacba14241a251d47"
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-// For more information on how to access Firebase in your project,
-// see the Firebase documentation: https://firebase.google.com/docs/web/setup#access-firebase
